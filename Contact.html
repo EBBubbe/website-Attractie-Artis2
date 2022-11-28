@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title> Contact-formulier</title>
+  <meta name="description" content="contact">
+
+  <style>
+body{background-color: darkkhaki ; color: darkslategrey ;}
+</style>
+  </head>
+
+<body>
+<fieldset>
+<legend>Contactformulier</legend>
+<form method="post" action="bewaarinformatie.php">
+<table width="600" border="0">
+<tbody>
+
+  <tr>
+  <td width="160"><b>Uw naam</b></td>
+  <td width="320"><input type="text" name="naam" Placeholder="voornaam en achternaam"></td>
+  </tr>
+
+<tr>
+<td width="160"><b>Uw Adres</b></td>
+<td width="320"><input type="text" name="adres" Placeholder="straatnaam en huisnummer"></td>
+</tr>
+
+<tr>
+<td width="160"><b>Uw postcode-plaats</b></td>
+<td width="320"><input type="text" name="adres" Placeholder="postcode en plaats"></td>
+</tr>
+
+<tr>
+<td><b>Uw emailadres</b></td>
+<td><input type="email" name="emailadres"></td>
+</tr>
+
+<tr>
+<td><b>Uw telefoonnummer</b></td>
+<td><input type="tel" name="telefoonnummer"></td>
+</tr>
+
+  <tr>
+  <td><b>Selecteer u interesse in onze dierentuin</b></td>
+  <td>
+  <input type="checkbox" name="onderwerpen" value="ja">Nieuwsbrief
+  <input type="checkbox" name="onderwerpen" value="ja">Rondleidingen
+  <input type="checkbox" name="onderwerpen" value="ja">Adoptie
+  <br>
+  <input type="checkbox" name="onderwerpen" value="ja">Lidmaatschap
+  <input type="checkbox" name="onderwerpen" value="ja">Donatie
+  </tr>
+
+  <tr>
+  <td><b>Eventuele opmerkingen kunt u hier toevoegen</b></td>
+  <td><textarea name="bericht" maxlength="1500"></textarea></td>
+  </tr>
+
+
+<tr>
+  <td><b>Uw zoekopdracht</b></td>
+  <td><input type="search" name="zoek" placeholder="typ hier uw zoekopdracht"></td>
+</tr>
+
+<tr>
+<td>&nbsp;</td>
+<td><button type="submit" name="verzendknop">
+<strong>verzend</strong>
+</button>
+</td>
+</tr>
+
+
+</tbody>
+</table>
+</form>
+</fieldset>
+</body>
+</html>
